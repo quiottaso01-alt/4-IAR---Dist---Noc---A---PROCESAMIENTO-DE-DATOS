@@ -1,8 +1,8 @@
-# 🌍 Proyecto ETL - Análisis de Desastres Naturales
+#  Proyecto ETL - Análisis de Desastres Naturales
 
 ---
 
-## 📌 Descripción del proyecto
+##  Descripción del proyecto
 
 Este proyecto implementa un proceso ETL (Extract, Transform, Load) en Python aplicado a un dataset de desastres naturales. El objetivo es realizar un análisis exploratorio para identificar patrones temporales, estacionales y geográficos.
 
@@ -14,7 +14,7 @@ El flujo del trabajo se divide en:
 
 ---
 
-## 📁 Estructura del proyecto
+##  Estructura del proyecto
 
 ```
 proyecto_desastres_naturales/
@@ -34,7 +34,7 @@ La carpeta `outputs/` contiene los gráficos generados automáticamente.
 
 ---
 
-## 📊 Conjunto de datos
+##  Conjunto de datos
 
 El dataset incluye información sobre desastres naturales a nivel global.
 
@@ -49,7 +49,7 @@ Estas variables permiten analizar el comportamiento temporal y geográfico de lo
 
 ---
 
-## ⚙️ Instalación
+##  Instalación
 
 ```
 pip install pandas matplotlib seaborn
@@ -57,7 +57,7 @@ pip install pandas matplotlib seaborn
 
 ---
 
-## ▶️ Ejecución
+##  Ejecución
 
 ```
 python main.py
@@ -71,7 +71,7 @@ outputs/
 
 ---
 
-## 🔄 Proceso ETL
+##  Proceso ETL
 
 ---
 
@@ -92,17 +92,17 @@ Esta etapa permite conocer la calidad y estructura de los datos.
 
 El módulo `transform.py` realiza:
 
-#### ✔ Creación de fecha
+####  Creación de fecha
 
 Se combinan `Year` y `Start Month` en una nueva columna de tipo fecha.
 
-#### ✔ Limpieza de datos
+####  Limpieza de datos
 
 * Normalización de texto
 * Eliminación de espacios
 * Manejo de valores faltantes
 
-#### ✔ Filtrado
+####  Filtrado
 
 Se seleccionan los datos de años recientes para análisis.
 
@@ -118,11 +118,11 @@ El módulo `load.py`:
 
 ---
 
-## 📈 Análisis de resultados
+##  Análisis de resultados
 
 ---
 
-### 📈 Desastres por año
+###  Desastres por año
 
 ![Grafico anual](outputs/grafico_anual.png)
 
@@ -130,7 +130,7 @@ Se observa un incremento sostenido en la cantidad de desastres desde la década 
 
 ---
 
-### 📉 Desastres en los últimos años
+###  Desastres en los últimos años
 
 ![Grafico ultimos](outputs/grafico_ultimos.png)
 
@@ -138,7 +138,7 @@ En las últimas décadas, la cantidad de eventos se mantiene alta, aunque con va
 
 ---
 
-### 📊 Desastres por mes
+###  Desastres por mes
 
 ![Grafico mensual](outputs/grafico_mensual.png)
 
@@ -146,7 +146,7 @@ Se identifican meses con mayor concentración de eventos, lo que sugiere patrone
 
 ---
 
-### 🔥 Heatmap temporal
+###  Heatmap temporal
 
 ![Heatmap](outputs/grafico_heatmap.png)
 
@@ -154,7 +154,7 @@ El gráfico muestra la distribución de desastres por mes y año, evidenciando c
 
 ---
 
-### 🌪️ Tipos de desastres
+###  Tipos de desastres
 
 ![Tipos](outputs/grafico_tipos.png)
 
@@ -162,7 +162,7 @@ Predominan los desastres de origen climático, especialmente inundaciones y torm
 
 ---
 
-### 🌎 Países más afectados
+###  Países más afectados
 
 ![Paises](outputs/grafico_paises.png)
 
@@ -170,7 +170,7 @@ Estados Unidos, China e India presentan mayor cantidad de eventos, posiblemente 
 
 ---
 
-### 🔄 Tipo de desastre por país
+###  Tipo de desastre por país
 
 ![Cruce](outputs/grafico_cruce_tipo_pais.png)
 
@@ -178,7 +178,7 @@ China e India concentran la mayor cantidad de desastres registrados, lo que pued
 
 ---
 
-## 🧠 Conclusiones generales
+##  Conclusiones generales
 
 El análisis muestra que los desastres naturales presentan patrones claros:
 
@@ -190,7 +190,7 @@ Esto demuestra que los eventos no ocurren de forma aleatoria, sino que dependen 
 
 ---
 
-## 🚀 Posibles mejoras
+##  Posibles mejoras
 
 * Analizar impacto (muertes, daños)
 * Incorporar más variables
@@ -199,7 +199,7 @@ Esto demuestra que los eventos no ocurren de forma aleatoria, sino que dependen 
 
 ---
 
-## 👤 Autor
+##  Autor
 
 Trabajo práctico desarrollado por: Ivan Quiottaso  
 Materia: Procesamiento de Datos.
