@@ -201,5 +201,6 @@ Esto demuestra que los eventos no ocurren de forma aleatoria, sino que dependen 
 
 ## 👤 Autor
 
-Trabajo práctico desarrollado por: Ivan Quiottaso  Materia: Procesamiento de Datos.
+Trabajo práctico desarrollado por: Ivan Quiottaso  
+Materia: Procesamiento de Datos.
 
