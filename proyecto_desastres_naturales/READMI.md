@@ -174,7 +174,7 @@ Estados Unidos, China e India presentan mayor cantidad de eventos, posiblemente 
 
 ![Cruce](outputs/grafico_cruce_tipo_pais.png)
 
-Estados Unidos, China e India concentran la mayor cantidad de desastres, lo que puede atribuirse a su tamaño y diversidad geográfica. Asimismo, países como Filipinas o Bangladesh presentan cifras elevadas en fenómenos específicos como tormentas e inundaciones, reflejando una mayor vulnerabilidad debido a su ubicación. En contraste, Japón y México destacan por la ocurrencia de terremotos y actividad volcánica, asociados al cinturón de fuego del Pacífico.
+China e India concentran la mayor cantidad de desastres registrados, lo que puede atribuirse a su gran extensión territorial y diversidad climática. También se observa una presencia importante de Estados Unidos, aunque con una distribución más variada entre tipos de eventos. Asimismo, países como Filipinas o Bangladesh presentan valores elevados en fenómenos específicos como tormentas e inundaciones, lo que refleja una mayor vulnerabilidad asociada a su ubicación geográfica. En contraste, Japón y México se destacan por la ocurrencia de terremotos y actividad volcánica, vinculadas al cinturón de fuego del Pacífico.
 
 ---
 
